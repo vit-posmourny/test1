@@ -12,7 +12,6 @@ class Wish extends Model
 
     protected $fillable = ['title', 'url', 'price', 'wishlist_id'];
 
-
     protected static function newFactory()
     {
         return WishFactory::new();
