@@ -11,11 +11,11 @@
 
     <div class="flex h-screen">
 
-        <aside class="bg-red-200 h-full w-1/3 flex-col justify-center">
+        <aside class="bg-red-200 h-full w-2/3 content-center justify-center">
             {{$slot}}
         </aside>
 
-        <main class="h-full w-2/3 flex justify-end">
+        <main class="h-full w-1/3 flex justify-end">
             
             <img class="bg-[url('..\images\pani.jpg')] bg-cover bg-center h-full w-full">
 

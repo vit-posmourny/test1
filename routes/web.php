@@ -7,3 +7,4 @@ use App\Http\Controllers\AuthController;
 Route::get('/', [DashboardController::class, 'index']);
 
 Route::get('/login', [AuthController::class, 'index']);
+Route::get('/register', [AuthController::class, 'store']);
