@@ -7,4 +7,8 @@ use App\Http\Controllers\AuthController;
 Route::get('/', [DashboardController::class, 'index']);
 
 Route::get('/login', [AuthController::class, 'index']);
+Route::post('/login', [AuthController::class, 'authenticate']);
+
 Route::get('/register', [AuthController::class, 'store']);
+
+Route::get('/dashboard', [DashboardController::class, 'index']);
