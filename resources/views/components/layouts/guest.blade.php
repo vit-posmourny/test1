@@ -17,7 +17,7 @@
 
         <main class="h-full w-1/3 flex justify-end">
             
-            <img class="bg-[url('..\images\pani.jpg')] bg-cover bg-center h-full w-full">
+            <img src="images/pani.jpg" class="bg-cover bg-center h-full w-full">
 
         </main>
         
